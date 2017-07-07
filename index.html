@@ -1,0 +1,51 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+        <link rel="stylesheet" href="./index.css"> 
+    </head>
+    <body>
+      <!-- container div begins -->
+      <div class="container">
+
+          <!-- Header -->
+	      <div class="row">
+	        <a href="#"><h1 class="title col-lg-12 col-sm-12 text-center">Wikipedia Search</h1></a>
+	      </div>
+
+
+          <!-- Searchbox -->
+	      <div class="search-box text-center">
+	        <div>
+	          <p>Show me wikki power</p>
+	        </div>
+	      
+	        <form class="search-form">
+	          <input type="search" class="form-control" id="search-query" autofocus>
+	          <div class="buttons">
+	            <button type="button" class="btn btn-default" id="search-btn">Search</button>
+	            <button type="button" class="btn btn-default" onclick="randomArticle()">Random Article</button>
+	          </div>
+	        </forms> 
+	      </div>
+
+	      
+	      <!-- Result display of the wikki search -->
+	      <div class="row result-list">
+	        <ol class="search-result col-lg-12 col-sm-12"></ol>
+	      </div>
+
+      </div> 
+
+
+        <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+		<script type="text/javascript" src="./index.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js"><\/script>')</script>
+
+    </body>
+</html>
