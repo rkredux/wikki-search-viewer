@@ -1,5 +1,7 @@
 $(document).ready(function () {
-
+  
+  
+  console.log("The document has loaded"); 
 
   let searchQuery, api, data;
 
