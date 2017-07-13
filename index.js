@@ -5,7 +5,7 @@ $(document).ready(function () {
 
 
   $("#search-btn").click(function () {
-
+    console.log("search button was clicked"); 
     $(".search-result").empty(); // clears previous results
     searchQuery = $("#search-query").val();
     api = "https://en.wikipedia.org/w/api.php?action=opensearch&search=" + searchQuery + "&format=json&" + "&origin=*";
@@ -48,6 +48,7 @@ $(document).ready(function () {
 
 
 function randomArticle() {
+  console.log("random article button was clicked"); 
   window.open("https://en.wikipedia.org/wiki/Special:Random", "_blank");
 };
 
